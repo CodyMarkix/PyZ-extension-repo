@@ -37,11 +37,9 @@ After you install PyZ, if you want to start using PlugM, you must first intializ
 
 ### Creating a repository
 
-A PlugM repository can be hosted on pretty much any form of server that can store files. A few examples include.
+PlugM currently only supports repositories hosted on GitHub. This is due to the way, downloading the `MANIFEST.json` is implemented.
 
-- A Github/lab repository
-- An SFTP server
-- A web server
+<img src=".readmeassets/downloadingmanifest.png">
 
 basically anything that can store files and have files be downloaded from via HTTPS.
 
@@ -76,11 +74,13 @@ Obviously, you can remove the two sample plugins, but every plugin must include:
 
 ### Adding repositories
 
+The way to add repositores on an end-user's computer is to
+
 ### Updating
 
 The way PlugM updating works is when you update it for the first time, it downloads the MANIFEST.json from this repository
 
 <img src=".readmeassets/update.png" width="600">
 
-and writes it to its own MANIFEST.json, stored on the end-user's computer.
+and writes it to its own MANIFEST.json, stored on the end-user's computer. This, however, overwrites the whole JSON.
 
