@@ -11,7 +11,7 @@
   - [Commands:](#commands)
   - [For repo maintainers](#for-repo-maintainers)
     - [Creating a repository](#creating-a-repository)
-    - [Adding repositories](#adding-repositories)
+      - [WARNING: PlugM currently only supports its single repository. Support will be added later!](#warning-plugm-currently-only-supports-its-single-repository-support-will-be-added-later)
     - [Updating](#updating)
 
 # How does it work?
@@ -30,12 +30,12 @@ After you install PyZ, if you want to start using PlugM, you must first intializ
 - `search` - Searches for a plugin
 - `install` - Installs a plugin.
 - `remove` - Removes a plugin.
-- `add-repo` - Adds a repository
-- `del-repo` - Removes a repository
 
 ## For repo maintainers
 
 ### Creating a repository
+
+#### WARNING: PlugM currently only supports its single repository. Support will be added later!
 
 PlugM currently only supports repositories hosted on GitHub. This is due to the way, downloading the `MANIFEST.json` is implemented.
 
@@ -71,10 +71,6 @@ Obviously, you can remove the two sample plugins, but every plugin must include:
 - Its version
 - Its description
 - Its archive's file name
-
-### Adding repositories
-
-The way to add repositores on an end-user's computer is to
 
 ### Updating
 
