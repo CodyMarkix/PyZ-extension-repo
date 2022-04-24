@@ -4,7 +4,7 @@
             "name": "pyz-extension-doc",
             "version": "1.0",
             "description": "An extension pack, containing documentation for PyZ extensions.",
-            "file": "pyz-ext-doc.zip"
+            "file": "pyz-extension-doc.zip"
         }
     ]
 }
