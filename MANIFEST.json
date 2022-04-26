@@ -3,12 +3,14 @@
         {
             "name": "pyz-extension-doc",
             "version": "1.0",
+            "author:": "Markix",
             "description": "An extension pack, containing documentation for PyZ extensions.",
             "file": "pyz-extension-doc.zip"
         },
         {
             "name": "qol-commands",
             "version": "1.0",
+            "author": "Markix",
             "description": "A sort of demo for PlugM, but also Quality-Of-Life functions, to make using the shell a bit more convinient",
             "file": "qol-commands.zip"
         }
