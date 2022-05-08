@@ -88,7 +88,7 @@ PlugM currently only supports its single repository. Support will be added later
 
 <img src=".readmeassets/downloadingmanifest.png">
 
-basically anything that can store files and have files be downloaded from via HTTPS.
+PlugM is going to eventually support basically anything that can store files and have files be downloaded from via HTTPS.
 
 In every repository, you must store a `MANIFEST.json` file that looks like this.
 
