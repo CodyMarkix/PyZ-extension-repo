@@ -13,6 +13,13 @@
             "author": "Markix",
             "description": "A sort of demo for PlugM, but also Quality-Of-Life functions, to make using the shell a bit more convinient",
             "file": "qol-commands.zip"
+        },
+        {
+            "name": "pyzapi",
+            "version": "0.5",
+            "author": "Markix",
+            "description": "A front end to the PyZ API",
+            "file": "pyzapi.zip"
         }
     ]
 }
