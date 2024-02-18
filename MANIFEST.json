@@ -9,7 +9,7 @@
         },
         {
             "name": "qol-commands",
-            "version": "1.0",
+            "version": "1.1",
             "author": "Markix",
             "description": "A sort of demo for PlugM, but also Quality-Of-Life functions, to make using the shell a bit more convinient",
             "file": "qol-commands.zip"
